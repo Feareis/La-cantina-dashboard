@@ -18,7 +18,7 @@ const Layout = () => {
         {/* Main Content */}
         <main className="p-4 flex-1">
           {/* PageHeader */}
-          <div className="w-[90%] mx-auto">
+          <div className="w-[75%] mx-auto">
             <PageHeader
               title="Dashboard"
               breadcrumb={[
@@ -29,7 +29,7 @@ const Layout = () => {
           </div>
 
           {/* Contenu principal centré horizontalement */}
-          <div className="w-[90%] mx-auto mt-6 bg-white p-6 rounded-lg shadow-md">
+          <div className="w-[75%] mx-auto mt-6">
             <Outlet />
           </div>
         </main>

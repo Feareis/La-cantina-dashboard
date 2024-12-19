@@ -44,7 +44,7 @@ const Sidebar = () => {
             <ul className="ml-6 space-y-1">
               <li>
                 <NavLink
-                  to="/gestion-utilisateurs"
+                  to="/users-management"
                   className={({ isActive }) =>
                     `block py-2 px-4 rounded-lg ${
                       isActive
@@ -58,7 +58,7 @@ const Sidebar = () => {
               </li>
               <li>
                 <NavLink
-                  to="/gestion-employes"
+                  to="/employees-management"
                   className={({ isActive }) =>
                     `block py-2 px-4 rounded-lg ${
                       isActive
@@ -72,7 +72,7 @@ const Sidebar = () => {
               </li>
               <li>
                 <NavLink
-                  to="/gestion-produits"
+                  to="/products-management"
                   className={({ isActive }) =>
                     `block py-2 px-4 rounded-lg ${
                       isActive
@@ -124,7 +124,7 @@ const Sidebar = () => {
         {/* Produits */}
         <li>
           <NavLink
-            to="/produits"
+            to="/products"
             className={({ isActive }) =>
               `block py-3 px-6 rounded-lg ${
                 isActive
@@ -152,7 +152,7 @@ const Sidebar = () => {
             <ul className="ml-6 space-y-1">
               <li>
                 <NavLink
-                  to="/vente-exportateur"
+                  to="/export-sales"
                   className={({ isActive }) =>
                     `block py-2 px-4 rounded-lg ${
                       isActive
@@ -166,7 +166,7 @@ const Sidebar = () => {
               </li>
               <li>
                 <NavLink
-                  to="/vente-client"
+                  to="/customer-sales"
                   className={({ isActive }) =>
                     `block py-2 px-4 rounded-lg ${
                       isActive
